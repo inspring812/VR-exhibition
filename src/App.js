@@ -1,9 +1,6 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import * as THREE from 'three';
 import './App.css';
-// import section_01 from "https://lab.cuz-art.com/wp-content/uploads/2021/05/Section01.png"
-// import VR from './vr.js';
 
 class App extends Component{
     componentDidMount(){
