@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import * as THREE from 'three';
 import './App.css';
-import section_01 from "./source/Section01.png"
+// import section_01 from "https://lab.cuz-art.com/wp-content/uploads/2021/05/Section01.png"
 // import VR from './vr.js';
 
 class App extends Component{
@@ -20,6 +20,8 @@ class App extends Component{
           onPointerDownLat = 0,
           phi = 0,
           theta = 0;
+
+          const url = 'https://lab.cuz-art.com/wp-content/uploads/2021/05/Section01.png';
 
       init();
       animate();
@@ -41,9 +43,10 @@ class App extends Component{
           // invert the geometry on the x-axis so that all of the faces point inward
           geometry.scale(-1, 1, 1);
 
+
           const texture = new THREE
               .TextureLoader()
-              .load(section_01);
+              .load(url);
           const material = new THREE.MeshBasicMaterial({map: texture});
 
           const mesh = new THREE.Mesh(geometry, material);
