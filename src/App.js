@@ -1,12 +1,15 @@
-import React, { Component } from "react";
+import React, { Component, useEffect } from 'react';
 import ReactDOM from "react-dom";
 import * as THREE from 'three';
 import './App.css';
-import section_01 from "./source/Section01.png"
+import section_01 from "./source/Section01.png";
 // import VR from './vr.js';
 
 class App extends Component{
-    componentDidMount(){
+    
+
+    
+    componentdidmount{
       let camera,
           scene,
           renderer;
