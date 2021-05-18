@@ -7,11 +7,19 @@
         "@testing-library/jest-dom": "^5.12.0",
         "@testing-library/react": "^11.2.6",
         "@testing-library/user-event": "^12.8.3",
+        "@types/react": "^17.0.5",
+        "@types/react-dom": "^17.0.4",
+        "@types/react-router-dom": "^4.3.4",
+        "@types/three": "^0.128.0",
         "gh-pages": "^3.1.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
+        "react-redux": "^7.2.4",
+        "react-router-dom": "^5.2.0",
         "react-scripts": "4.0.3",
+        "redux": "^4.1.0",
         "three": "^0.128.0",
+        "typescript": "^4.2.4",
         "web-vitals": "^1.1.2",
         "yarn": "^1.22.10"
     },
@@ -27,12 +35,21 @@
         "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
-        "extends": ["react-app", "react-app/jest"]
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
     },
     "browserslist": {
         "production": [
-            ">0.2%", "not dead", "not op_mini all"
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
         ],
-        "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
     }
 }
