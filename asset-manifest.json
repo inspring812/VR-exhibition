@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/VR-exhibition/static/css/main.1635e87c.chunk.css",
-    "main.js": "/VR-exhibition/static/js/main.55f6ad19.chunk.js",
-    "main.js.map": "/VR-exhibition/static/js/main.55f6ad19.chunk.js.map",
+    "main.js": "/VR-exhibition/static/js/main.669beec2.chunk.js",
+    "main.js.map": "/VR-exhibition/static/js/main.669beec2.chunk.js.map",
     "runtime-main.js": "/VR-exhibition/static/js/runtime-main.4a82f70d.js",
     "runtime-main.js.map": "/VR-exhibition/static/js/runtime-main.4a82f70d.js.map",
-    "static/js/2.9cbe6277.chunk.js": "/VR-exhibition/static/js/2.9cbe6277.chunk.js",
-    "static/js/2.9cbe6277.chunk.js.map": "/VR-exhibition/static/js/2.9cbe6277.chunk.js.map",
+    "static/js/2.1c8e3795.chunk.js": "/VR-exhibition/static/js/2.1c8e3795.chunk.js",
+    "static/js/2.1c8e3795.chunk.js.map": "/VR-exhibition/static/js/2.1c8e3795.chunk.js.map",
     "static/js/3.9440b6ed.chunk.js": "/VR-exhibition/static/js/3.9440b6ed.chunk.js",
     "static/js/3.9440b6ed.chunk.js.map": "/VR-exhibition/static/js/3.9440b6ed.chunk.js.map",
     "index.html": "/VR-exhibition/index.html",
     "static/css/main.1635e87c.chunk.css.map": "/VR-exhibition/static/css/main.1635e87c.chunk.css.map",
-    "static/js/2.9cbe6277.chunk.js.LICENSE.txt": "/VR-exhibition/static/js/2.9cbe6277.chunk.js.LICENSE.txt"
+    "static/js/2.1c8e3795.chunk.js.LICENSE.txt": "/VR-exhibition/static/js/2.1c8e3795.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4a82f70d.js",
-    "static/js/2.9cbe6277.chunk.js",
+    "static/js/2.1c8e3795.chunk.js",
     "static/css/main.1635e87c.chunk.css",
-    "static/js/main.55f6ad19.chunk.js"
+    "static/js/main.669beec2.chunk.js"
   ]
 }
